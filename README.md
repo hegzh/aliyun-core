@@ -1,3 +1,4 @@
-# aliyun-core
+#aliyun-core
+阿里大于PHP SDK的核心依赖包的composer封装
 
-阿里云 PHP SDK 的核心依赖包的 composer 封装
+[帮助文档](https://help.aliyun.com/document_detail/55451.html?spm=5176.sms-account.109.2.56907c16xG4lWM)

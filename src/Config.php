@@ -1,4 +1,5 @@
 <?php
+
 namespace hegzh\AliyunCore;
 /*
  * Licensed to the Apache Software Foundation (ASF) under one
@@ -19,28 +20,26 @@ namespace hegzh\AliyunCore;
  * under the License.
  */
 include_once 'Autoloader/Autoloader.php';
-
 include_once 'Regions/EndpointConfig.php';
-
 //config sdk auto load path.
 Autoloader::addAutoloadPath("aliyun-php-sdk-ubsms");
 Autoloader::addAutoloadPath("aliyun-php-sdk-ubsms-inner");
-//Autoloader::addAutoloadPath("aliyun-php-sdk-ecs");
-//Autoloader::addAutoloadPath("aliyun-php-sdk-batchcompute");
-//Autoloader::addAutoloadPath("aliyun-php-sdk-sts");
-//Autoloader::addAutoloadPath("aliyun-php-sdk-push");
-//Autoloader::addAutoloadPath("aliyun-php-sdk-ram");
-//Autoloader::addAutoloadPath("aliyun-php-sdk-green");
-//Autoloader::addAutoloadPath("aliyun-php-sdk-dm");
-//Autoloader::addAutoloadPath("aliyun-php-sdk-iot");
-//Autoloader::addAutoloadPath("aliyun-php-sdk-jaq");
-//Autoloader::addAutoloadPath("aliyun-php-sdk-cs");
-//Autoloader::addAutoloadPath("aliyun-php-sdk-live");
-//Autoloader::addAutoloadPath("aliyun-php-sdk-vpc");
-//Autoloader::addAutoloadPath("aliyun-php-sdk-kms");
-//Autoloader::addAutoloadPath("aliyun-php-sdk-rds");
-//Autoloader::addAutoloadPath("aliyun-php-sdk-slb");
-//Autoloader::addAutoloadPath("aliyun-php-sdk-cms");
+Autoloader::addAutoloadPath("aliyun-php-sdk-ecs");
+Autoloader::addAutoloadPath("aliyun-php-sdk-batchcompute");
+Autoloader::addAutoloadPath("aliyun-php-sdk-sts");
+Autoloader::addAutoloadPath("aliyun-php-sdk-push");
+Autoloader::addAutoloadPath("aliyun-php-sdk-ram");
+Autoloader::addAutoloadPath("aliyun-php-sdk-green");
+Autoloader::addAutoloadPath("aliyun-php-sdk-dm");
+Autoloader::addAutoloadPath("aliyun-php-sdk-iot");
+Autoloader::addAutoloadPath("aliyun-php-sdk-jaq");
+Autoloader::addAutoloadPath("aliyun-php-sdk-cs");
+Autoloader::addAutoloadPath("aliyun-php-sdk-live");
+Autoloader::addAutoloadPath("aliyun-php-sdk-vpc");
+Autoloader::addAutoloadPath("aliyun-php-sdk-kms");
+Autoloader::addAutoloadPath("aliyun-php-sdk-rds");
+Autoloader::addAutoloadPath("aliyun-php-sdk-slb");
+Autoloader::addAutoloadPath("aliyun-php-sdk-cms");
 
 //config http proxy	
 define('ENABLE_HTTP_PROXY', FALSE);
