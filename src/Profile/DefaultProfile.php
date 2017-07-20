@@ -5,7 +5,9 @@ namespace hegzh\AliyunCore\Profile;
 use hegzh\AliyunCore\Auth\Credential;
 use hegzh\AliyunCore\Auth\ShaHmac1Signer;
 use hegzh\AliyunCore\Regions\Endpoint;
+use hegzh\AliyunCore\Regions\EndpointProvider;
 use hegzh\AliyunCore\Regions\ProductDomain;
+use hegzh\AliyunCore\Profile\IClientProfile;
 
 /*
  * Licensed to the Apache Software Foundation (ASF) under one

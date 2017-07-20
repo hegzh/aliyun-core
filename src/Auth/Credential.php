@@ -1,5 +1,5 @@
 <?php
-namespace hgzh\AliyunCore\Auth;
+namespace hegzh\AliyunCore\Auth;
 
 /*
  * Licensed to the Apache Software Foundation (ASF) under one
